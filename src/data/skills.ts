@@ -9,16 +9,11 @@ export const technicalSkills: Skill[] = [
   { name: "JavaScript", weight: "large" },
   { name: "TypeScript" },
   { name: "React", weight: "large" },
-  { name: "Next.js" },
   { name: "Node.js", weight: "large" },
-  { name: "Express" },
-  { name: "MongoDB" },
   { name: "SQL" },
   { name: "Tailwind CSS" },
   { name: "Git" },
   { name: "GitHub" },
-  { name: "Firebase" },
-  { name: "Docker" },
 ];
 
 export const softSkills: Skill[] = [
