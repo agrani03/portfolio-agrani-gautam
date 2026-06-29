@@ -8,24 +8,21 @@ export interface EducationEntry {
 
 export const education: EducationEntry[] = [
   {
-    dateRange: "2021–2025",
-    degree: "Bachelor of Technology in Computer Science",
-    institution: "University Name",
-    note: "CGPA: 8.5/10",
+    dateRange: "2024–Present",
+    degree: "Bachelor of Technology",
+    institution: "Acropolis Institute of Technology and Research",
     isCurrent: true,
   },
   {
-    dateRange: "2019–2021",
+    dateRange: "2021–2023",
     degree: "Higher Secondary Education",
-    institution: "College Name",
-    note: "Science stream — 92%",
+    institution: "APS Lucknow",
     isCurrent: false,
   },
   {
-    dateRange: "2017–2019",
+    dateRange: "2019–2021",
     degree: "Secondary Education",
-    institution: "School Name",
-    note: "90%",
+    institution: "APS Lucknow",
     isCurrent: false,
   },
 ];

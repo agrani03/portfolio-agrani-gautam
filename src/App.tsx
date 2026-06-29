@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -19,13 +21,9 @@ function App() {
 
         <Skills />
 
-        <section id="projects" className="min-h-[60vh] flex items-center justify-center px-6">
-          <p className="text-lg text-[var(--text-secondary)]">Projects section — coming in Step 7</p>
-        </section>
+        <Projects />
 
-        <section id="education" className="min-h-[60vh] flex items-center justify-center px-6">
-          <p className="text-lg text-[var(--text-secondary)]">Education section — coming in Step 8</p>
-        </section>
+        <Education />
 
         <section id="contact" className="min-h-[60vh] flex items-center justify-center px-6">
           <p className="text-lg text-[var(--text-secondary)]">Contact section — coming in Step 9</p>
