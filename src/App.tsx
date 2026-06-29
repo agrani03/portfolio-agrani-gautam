@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
 
       {/* Placeholder sections for scroll testing */}
       <main>
-        <section id="hero" className="min-h-screen flex items-center justify-center px-6">
-          <p className="text-lg text-[var(--text-secondary)]">Hero section — coming in Step 4</p>
-        </section>
+        <Hero />
 
         <section id="about" className="min-h-[60vh] flex items-center justify-center px-6">
           <p className="text-lg text-[var(--text-secondary)]">About section — coming in Step 5</p>
